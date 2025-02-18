@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f4f7f6, #e0e7ff);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1f8b51;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Main Container */
+.student-profile-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+
+
+/* Content Area */
+.content {
+    margin-left: 280px; /* Offset for sidebar */
+    padding: 30px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+/* Paper Component */
+.paper {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.table-container {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: #1f8b51;
+    color: white;
+}
+
+.table-head th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table-body tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.table-body tr:hover {
+    background-color: #f0f0f0;
+}
+
+.table-body td {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+/* Typography */
+h4, h5, h6 {
+    color: #1f8b51;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* Evaluations Table */
+.evaluations-table {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.evaluations-table th,
+.evaluations-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.evaluations-table th {
+    background-color: #1f8b51;
+    color: white;
+    font-weight: 600;
+}
+
+.evaluations-table tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.evaluations-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.evaluations-table td {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 15px;
+    }
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .paper {
+        padding: 15px;
+    }
+
+    .table-head th,
+    .table-body td,
+    .evaluations-table th,
+    .evaluations-table td {
+        padding: 10px;
+    }
+}

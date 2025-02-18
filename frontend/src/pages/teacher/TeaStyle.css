@@ -1,0 +1,112 @@
+/* Container for the entire component */
+.evaluation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 380px;
+}
+
+/* Heading */
+.evaluation-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input group styling */
+.evaluation-input-group {
+    margin-bottom: 15px;
+}
+
+.evaluation-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.evaluation-input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.evaluation-input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+.evaluation-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.evaluation-button:hover {
+    background-color: #0056b3;
+}
+
+/* Evaluation list styling */
+.evaluation-list {
+    margin-top: 20px;
+}
+
+.evaluation-list h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.evaluation-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.evaluation-list li {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.evaluation-list li strong {
+    color: #333;
+}
+
+/* Error and message styling */
+.evaluation-error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.evaluation-message {
+    color: #155724;
+    background-color: #d4edda;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* Buttons container */
+.evaluation-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}

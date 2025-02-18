@@ -1,0 +1,417 @@
+/* for the student form part */
+.student-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.student-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.student-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.student-form button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* for the subject form part */
+.subject-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subject-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subject-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.subject-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.subject-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subject-form button:hover {
+    background-color: #45a049;
+}
+
+/* class form */
+.class-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.class-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.class-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.class-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.class-form button:hover {
+    background-color: #45a049;
+}
+
+/* teacher form */
+.teacher-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.teacher-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.teacher-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.teacher-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.teacher-form button:hover {
+    background-color: #45a049;
+}
+
+/* notice form */
+.notice-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 520px;
+}
+
+.notice-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notice-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.notice-form input,
+.notice-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.notice-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.notice-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.notice-form button:hover {
+    background-color: #45a049;
+}
+
+.notice-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* teacher details */
+.teacher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.teacher-table th, 
+.teacher-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.teacher-table th {
+    background-color: #f4f4f4;
+}
+
+.teacher-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.teacher-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.action-buttons button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background-color: #f4b400; /* Yellow */
+}
+
+.details-btn {
+    background-color: #0096c7; /* Blue */
+}
+
+.delete-btn {
+    background-color: #d9534f; /* Red */
+}
+
+
+
+/* complain Details */
+
+.complain{
+    margin-left: 200px;
+}
+.complain-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 330px;
+}
+
+.complain-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.complain-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.complain-details button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.complain-details button:hover {
+    background: linear-gradient(135deg, #66BB6A, #388E3C);
+    transform: translateY(-2px);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.complain-details button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.complain-details button:hover {
+    background-color: #ddd;
+}
+
+/* complain form */
+.complain-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+}
+
+.complain-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complain-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.complain-form input,
+.complain-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.complain-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.complain-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.complain-form button:hover {
+    background-color: #45a049;
+}
+
+.complain-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,264 @@
+/* Content Area */
+.notice-h2 {
+    text-align: center;
+    color: #1f8b51;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.notice {
+    margin-left: 250px; /* Offset for sidebar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px; /* Set a max-width to make it wider */
+    margin-right: auto; /* Center the container */
+    margin-left: auto; /* Center the container */
+}
+
+/* Notice Details */
+.notice-details {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notice-details:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.notice-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.notice-details strong {
+    color: #1f8b51;
+}
+
+/* complain Details */
+
+/* complain Details */
+
+.complain {
+    margin-left: 250px; /* Adjusted for a consistent layout with the sidebar */
+    padding: 20px;
+}
+
+.complain-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content vertically */
+    align-items: flex-start; /* Align content to the left */
+    text-align: left; /* Align text to the left */
+}
+
+.complain-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.complain-details button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.complain-details button:hover {
+    background-color: #0056b3;
+}
+
+.complain-details button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.complain-details button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+
+.complain-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+/* complain form */
+.complain-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+}
+
+.complain-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.complain-form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.complain-form input,
+.complain-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.complain-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.complain-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.complain-form button:hover {
+    background-color: #45a049;
+}
+
+.complain-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Update Form Styles */
+.update-formC {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-left: 300px;
+}
+
+.update-formC label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.update-formC input,
+.update-formC textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.update-formC textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.update-formC button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.update-formC button:hover {
+    background: linear-gradient(135deg, #66BB6A, #388E3C);
+    transform: translateY(-2px);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.update-formC button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.update-formC button:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .notice {
+        margin-left: 0;
+        padding: 10px;
+        width: 90%; /* Make notice container fill more space */
+    }
+}
+
+
+/* result */
+
+.sr{
+    margin-left: 300px;
+}
+.sr .content {
+    margin-left: 320px; /* Sidebar width + some spacing */
+    padding: 20px;
+}
+
+/* Table styling */
+.sr table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.sr table, th, td {
+    border: 1px solid #ddd;
+}
+
+.sr th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.sr th {
+    background-color: #3498db;
+    color: white;
+}
